@@ -1,7 +1,6 @@
 export class DOMutils {
     getInputValue(id) {
-        const input = document.getElementById(id).value;
-        return input;
+        return document.getElementById(id).value;
     }
 
     getElementById(id) {
